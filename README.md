@@ -1,4 +1,3 @@
 # Bobbbay.
 
-<img src="src/wakatime-api/build/build.svg"/>
-![wakatime-stats](src/wakatime-api/build/build.svg "Wakatime Stats")
+<img src="https://github.com/Bobbbay/bobbbay/blob/development/src/wakatime-api/build/build.svg"/>
