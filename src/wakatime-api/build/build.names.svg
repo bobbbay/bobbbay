@@ -1,133 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" 
+  height="550" width="1100"
+>
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#f1e05a;" 
-    y="0.1" 
+    y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="1">
+    font-size="50" 
+    x="60" y="45">
     JavaScript: 3 hrs 15 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#e34c26;" 
-    y="1.1" 
+    y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="2">
+    font-size="50" 
+    x="60" y="95">
     HTML: 1 hr
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#000;" 
-    y="2.1" 
+    y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="3">
+    font-size="50" 
+    x="60" y="145">
     Other: 39 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#2b7489;" 
-    y="3.1" 
+    y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="4">
+    font-size="50" 
+    x="60" y="195">
     TypeScript: 25 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#563d7c;" 
-    y="4.1" 
+    y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="5">
+    font-size="50" 
+    x="60" y="245">
     CSS: 25 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#000;" 
-    y="5.1" 
+    y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="6">
+    font-size="50" 
+    x="60" y="295">
     Markdown: 13 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#000;" 
-    y="6.1" 
+    y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="7">
+    font-size="50" 
+    x="60" y="345">
     JSON: 7 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#000;" 
-    y="7.1" 
+    y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="8">
+    font-size="50" 
+    x="60" y="395">
     Git: 5 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#000;" 
-    y="8.1" 
+    y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="9">
+    font-size="50" 
+    x="60" y="445">
     CSV: 3 mins
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#000;" 
-    y="9.1" 
+    y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="10">
+    font-size="50" 
+    x="60" y="495">
     Git Config: 1 min
   </text>
 
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:#427819;" 
-    y="10.1" 
+    y="500" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="11">
+    font-size="50" 
+    x="60" y="545">
     Makefile: 0 secs
   </text>
 </svg>

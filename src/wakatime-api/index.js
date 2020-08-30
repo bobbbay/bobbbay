@@ -53,23 +53,28 @@ const callback = function (response) {
       if (err) return console.log(err);
     });
 
-    let colorNames = `<svg xmlns="http://www.w3.org/2000/svg">`;
+    let colorNames = ``;
 
     for (i = 0; i < usedLanguages.length; i++) {
       colorNames += `
   <rect 
-    width="1" height="1" 
+    width="50" height="50" 
     style="fill:${usedColors[i]};" 
-    y="${i + 0.1}" 
+    y="${i * 50}" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
-    font-size="1" 
-    x="1.2" y="${i + 1}">
+    font-size="50" 
+    x="60" y="${(i + 1) * 50 - 5}">
     ${usedLanguages[i]}: ${str.data.languages[i].text}
   </text>
 `;
     }
+
+    colorNames =
+      `<svg xmlns="http://www.w3.org/2000/svg" 
+  height="${i * 50}" width="${i * 50 * 2}"
+>` + colorNames;
 
     colorNames += `</svg>`;
 
