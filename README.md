@@ -3,7 +3,7 @@
 ## Wakatime
 
 <img src="https://github.com/Bobbbay/bobbbay/blob/development/src/wakatime-api/build/build.svg" width="40%"></img>
-<img src="https://github.com/Bobbbay/bobbbay/blob/development/src/wakatime-api/build/build.names.svg" width="17%"></img>
+<img src="https://github.com/Bobbbay/bobbbay/blob/development/src/wakatime-api/build/build.names.svg" width="30%"></img>
 
 <hr/>
 
