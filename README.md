@@ -7,4 +7,4 @@
 
 <hr/>
 
-<sub><sup>This README file was statically written in multiple programming languages. See how this works at [README.explanation.md](https://github.com/Bobbbay/bobbbay/blob/development/README.explanation.md)</sup></sub>
+<sub><sup>This README file was dynamically written in multiple programming languages. See how this works at [README.explanation.md](https://github.com/Bobbbay/bobbbay/blob/development/README.explanation.md)</sup></sub>
