@@ -4,8 +4,13 @@
 name: Wakatime API
 
 on:
-  schedule:
-  - cron: "0 4 * * *"
+  push:
+    branches:
+    - master
+
+#on:
+#  schedule:
+#  - cron: "0 4 * * *"
 
 jobs:
   build:
