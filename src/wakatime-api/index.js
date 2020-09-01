@@ -11,7 +11,6 @@ const callback = function (response) {
     const fs = require("fs");
 
     let chart = `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
   <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
 `;
 
