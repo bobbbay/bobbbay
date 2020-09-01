@@ -1,5 +1,5 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# This workflow runs src/wakatime-api/index.js, which garbs the API and outputs build files. The workflow 
+# then commits those changes to the master branch, which is then grabbed by the original `README.md`.
 
 name: Wakatime API
 
