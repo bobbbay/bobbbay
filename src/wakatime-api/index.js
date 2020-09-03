@@ -27,7 +27,7 @@ const callback = function (response) {
       try {
         color = parsed[str.data.languages[i].name].color;
       } catch {
-        color = "#000";
+        color = "#EEE";
       }
 
       usedColors.push(color);
