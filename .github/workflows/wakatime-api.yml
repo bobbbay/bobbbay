@@ -1,5 +1,5 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# This workflow runs src/wakatime-api/index.js, which garbs the API and outputs build files. The workflow 
+# then commits those changes to the master branch, which is then grabbed by the original `README.md`.
 
 name: Wakatime API
 
@@ -7,14 +7,18 @@ on:
   schedule:
   - cron: "0 4 * * *"
 
+# Only enable for testing, because GitHub doesn't have it :shrug:
+#on:
+#  push:
+#    branches:
+#    - master
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -23,7 +27,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: cd src/wakatime-api && node index.js && cd ../..
-    - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+    - uses: EndBug/add-and-commit@v4
       with:
         add: 'src/wakatime-api/build/'
         author_name: Bobbbay
@@ -35,5 +39,4 @@ jobs:
         ref: 'master'
         remove: ""
       env:
-        # This is necessary in order to push a commit to the repo
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
