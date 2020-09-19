@@ -30,13 +30,11 @@ jobs:
     - uses: EndBug/add-and-commit@v4
       with:
         add: 'src/wakatime-api/build/'
-        author_name: Bobbbay
-        author_email: abatterysingle@gmail.com
+        author_name: github-actions
+        author_email: github-actions@github.com
         cwd: '.'
         force: false
         signoff: false
         message: 'Update wakatime charts from GitHub Actions'
         ref: 'master'
         remove: ""
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
