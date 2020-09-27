@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="400" width="800"
+  height="450" width="900"
 >
   <rect 
     width="50" height="50" 
-    style="fill:#f1e05a;" 
+    style="fill:#dea584;" 
     y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    JavaScript: 4 hrs 50 mins
+    Rust: 3 hrs 47 mins
   </text>
 
   <rect 
@@ -22,31 +22,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Other: 1 hr 42 mins
+    Other: 3 hrs 15 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#555555;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    JSON: 26 mins
+    C: 1 hr 16 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00ADD8;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Markdown: 17 mins
+    Go: 1 hr 11 mins
   </text>
 
   <rect 
@@ -58,42 +58,54 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Git Config: 1 min
+    Bash: 21 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#563d7c;" 
+    style="fill:#f34b7d;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    CSS: 0 secs
+    C++: 17 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#2b7489;" 
+    style="fill:#427819;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    TypeScript: 0 secs
+    Makefile: 5 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#F18E33;" 
+    style="fill:#555;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Kotlin: 0 secs
+    Git Config: 4 mins
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#199f4b;" 
+    y="400" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="445">
+    VimL: 1 min
   </text>
 </svg>
