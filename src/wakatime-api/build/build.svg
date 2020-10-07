@@ -4,21 +4,14 @@
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555" 
     stroke-width="3" 
-    stroke-dasharray="98.59 1.4099999999999966"
+    stroke-dasharray="71.87 28.129999999999995"
     stroke-dashoffset="125">
-  </circle>
-  <circle class="donut-segment" 
-    cx="21" cy="21" r="15.91549430918954" 
-    fill="transparent" stroke="#427819" 
-    stroke-width="3" 
-    stroke-dasharray="1.04 98.96"
-    stroke-dashoffset="26.409999999999997">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#f1e05a" 
     stroke-width="3" 
-    stroke-dasharray="0.37 99.63"
-    stroke-dashoffset="25.36999999999999">
+    stroke-dasharray="28.13 71.87"
+    stroke-dashoffset="53.129999999999995">
   </circle>
 </svg>
