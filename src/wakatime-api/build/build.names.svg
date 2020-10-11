@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="100" width="200"
+  height="500" width="1000"
 >
   <rect 
     width="50" height="50" 
@@ -10,18 +10,114 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Other: 4 mins
+    Other: 1 hr
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#f1e05a;" 
+    style="fill:#3572A5;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    JavaScript: 1 min
+    Python: 28 mins
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#e69f56;" 
+    y="100" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="145">
+    Groovy: 9 mins
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="150" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="195">
+    XML: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="200" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="245">
+    JSON: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="250" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="295">
+    Git Config: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="300" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="345">
+    Properties: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#C1F12E;" 
+    y="350" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="395">
+    Batchfile: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#F18E33;" 
+    y="400" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="445">
+    Kotlin: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#74283c;" 
+    y="450" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="495">
+    Prolog: 0 secs
   </text>
 </svg>
