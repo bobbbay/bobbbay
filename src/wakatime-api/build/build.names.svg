@@ -3,74 +3,74 @@
 >
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#e34c26;" 
     y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Other: 1 hr 2 mins
+    HTML: 1 hr 36 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#f1e05a;" 
+    style="fill:#563d7c;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    JavaScript: 29 mins
+    CSS: 1 hr 5 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#555;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Python: 28 mins
+    Other: 1 hr 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#e34c26;" 
+    style="fill:#f1e05a;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    HTML: 13 mins
+    JavaScript: 31 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#e69f56;" 
+    style="fill:#3572A5;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Groovy: 9 mins
+    Python: 28 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#e69f56;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    JSON: 9 mins
+    Groovy: 9 mins
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    XML: 0 secs
+    JSON: 9 mins
   </text>
 
   <rect 
@@ -94,7 +94,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Git Config: 0 secs
+    XML: 0 secs
   </text>
 
   <rect 
@@ -106,31 +106,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Properties: 0 secs
+    Git Config: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#C1F12E;" 
+    style="fill:#555;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Batchfile: 0 secs
+    Properties: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#563d7c;" 
+    style="fill:#C1F12E;" 
     y="500" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
-    CSS: 0 secs
+    Batchfile: 0 secs
   </text>
 
   <rect 
