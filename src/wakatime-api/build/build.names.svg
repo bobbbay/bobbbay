@@ -10,31 +10,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    HTML: 1 hr 36 mins
+    HTML: 2 hrs 14 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#563d7c;" 
+    style="fill:#555;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    CSS: 1 hr 5 mins
+    Other: 1 hr 11 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#563d7c;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Other: 1 hr 2 mins
+    CSS: 1 hr 8 mins
   </text>
 
   <rect 
@@ -46,7 +46,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    JavaScript: 31 mins
+    JavaScript: 33 mins
   </text>
 
   <rect 
