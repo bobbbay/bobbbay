@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Dart: 1 hr 25 mins
+    Dart: 2 hrs 30 mins
   </text>
 
   <rect 
@@ -34,7 +34,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Markdown: 18 mins
+    Markdown: 19 mins
   </text>
 
   <rect 
@@ -51,38 +51,38 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#e69f56;" 
+    style="fill:#555;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Groovy: 4 mins
+    YAML: 5 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#563d7c;" 
+    style="fill:#e69f56;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    CSS: 2 mins
+    Groovy: 4 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#563d7c;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    YAML: 2 mins
+    CSS: 2 mins
   </text>
 
   <rect 
@@ -118,43 +118,43 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Properties: 1 min
+    Git Config: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#F18E33;" 
+    style="fill:#555;" 
     y="500" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
-    Kotlin: 0 secs
+    Properties: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#74283c;" 
+    style="fill:#F18E33;" 
     y="550" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    Prolog: 0 secs
+    Kotlin: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#74283c;" 
     y="600" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
-    JSON: 0 secs
+    Prolog: 0 secs
   </text>
 
   <rect 
@@ -166,7 +166,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="695">
-    Git Config: 0 secs
+    JSON: 0 secs
   </text>
 
   <rect 
