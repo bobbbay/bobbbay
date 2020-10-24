@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="600" width="1200"
+  height="550" width="1100"
 >
   <rect 
     width="50" height="50" 
@@ -131,17 +131,5 @@
     font-size="50" 
     x="60" y="545">
     Prolog: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="550" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="595">
-    Apache Config: 0 secs
   </text>
 </svg>

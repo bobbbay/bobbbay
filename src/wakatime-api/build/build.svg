@@ -77,11 +77,4 @@
     stroke-dasharray="0 100"
     stroke-dashoffset="25.02000000000001">
   </circle>
-  <circle class="donut-segment" 
-    cx="21" cy="21" r="15.91549430918954" 
-    fill="transparent" stroke="#555" 
-    stroke-width="3" 
-    stroke-dasharray="0 100"
-    stroke-dashoffset="25.02000000000001">
-  </circle>
 </svg>
