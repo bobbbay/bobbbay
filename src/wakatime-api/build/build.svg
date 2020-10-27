@@ -4,7 +4,7 @@
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#00B4AB" 
     stroke-width="3" 
-    stroke-dasharray="76.69 23.310000000000002"
+    stroke-dasharray="76.7 23.299999999999997"
     stroke-dashoffset="125">
   </circle>
   <circle class="donut-segment" 
@@ -12,14 +12,14 @@
     fill="transparent" stroke="#e69f56" 
     stroke-width="3" 
     stroke-dasharray="8.05 91.95"
-    stroke-dashoffset="48.31">
+    stroke-dashoffset="48.3">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555" 
     stroke-width="3" 
-    stroke-dasharray="7.32 92.68"
-    stroke-dashoffset="40.260000000000005">
+    stroke-dasharray="7.31 92.69"
+    stroke-dashoffset="40.25">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
