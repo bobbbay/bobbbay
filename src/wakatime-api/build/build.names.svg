@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Dart: 2 hrs 4 mins
+    Dart: 1 hr
   </text>
 
   <rect 
@@ -34,7 +34,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    YAML: 7 mins
+    YAML: 3 mins
   </text>
 
   <rect 
@@ -51,26 +51,26 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#F18E33;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Git Config: 2 mins
+    Kotlin: 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#F18E33;" 
+    style="fill:#555;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Kotlin: 2 mins
+    Markdown: 0 secs
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Markdown: 1 min
+    Git Config: 0 secs
   </text>
 
   <rect 
