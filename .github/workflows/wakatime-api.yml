@@ -5,13 +5,7 @@ name: Wakatime API
 
 on:
   schedule:
-  - cron: "0 4 * * *"
-
-# Only enable for testing, because GitHub doesn't have it :shrug:
-#on:
-#  push:
-#    branches:
-#    - master
+  - cron: "0 */12 * * *"
 
 jobs:
   build:
