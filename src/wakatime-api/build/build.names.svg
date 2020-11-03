@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="650" width="1300"
+  height="750" width="1500"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 4 hrs 11 mins
+    C: 4 hrs 52 mins
   </text>
 
   <rect 
@@ -34,7 +34,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Git Config: 12 mins
+    Git Config: 20 mins
   </text>
 
   <rect 
@@ -63,26 +63,26 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#00B4AB;" 
+    style="fill:#427819;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Dart: 5 mins
+    Makefile: 6 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00B4AB;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    JSON: 4 mins
+    Dart: 5 mins
   </text>
 
   <rect 
@@ -94,7 +94,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Text: 3 mins
+    JSON: 4 mins
   </text>
 
   <rect 
@@ -106,7 +106,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Markdown: 3 mins
+    Text: 3 mins
   </text>
 
   <rect 
@@ -118,7 +118,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    TOML: 2 mins
+    Markdown: 3 mins
   </text>
 
   <rect 
@@ -130,30 +130,54 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
-    YAML: 1 min
+    TOML: 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#f1e05a;" 
+    style="fill:null;" 
     y="550" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    JavaScript: 1 min
+    CMake: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:null;" 
+    style="fill:#555;" 
     y="600" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
-    CMake: 1 min
+    YAML: 1 min
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#f1e05a;" 
+    y="650" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="695">
+    JavaScript: 1 min
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#e34c26;" 
+    y="700" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="745">
+    HTML: 0 secs
   </text>
 </svg>
