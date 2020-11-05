@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 4 hrs 52 mins
+    C: 4 hrs 23 mins
   </text>
 
   <rect 
@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Python: 2 hrs 31 mins
+    Python: 2 hrs 10 mins
   </text>
 
   <rect 
@@ -34,31 +34,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    JavaScript: 45 mins
+    JavaScript: 1 hr 41 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#dea584;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Git Config: 20 mins
+    Rust: 1 hr 25 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#dea584;" 
+    style="fill:#555;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Rust: 12 mins
+    Other: 32 mins
   </text>
 
   <rect 
@@ -70,31 +70,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Other: 10 mins
+    JSON: 23 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:#555;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Makefile: 6 mins
+    Git Config: 15 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00B4AB;" 
+    style="fill:#427819;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Dart: 5 mins
+    Makefile: 6 mins
   </text>
 
   <rect 
@@ -106,7 +106,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    JSON: 4 mins
+    TOML: 5 mins
   </text>
 
   <rect 
@@ -118,7 +118,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Markdown: 3 mins
+    Text: 3 mins
   </text>
 
   <rect 
@@ -130,54 +130,54 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
-    Text: 3 mins
+    YAML: 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00B4AB;" 
     y="550" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    TOML: 2 mins
+    Dart: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="600" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
-    YAML: 1 min
+    CMake: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:null;" 
+    style="fill:#e34c26;" 
     y="650" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="695">
-    CMake: 1 min
+    HTML: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#e34c26;" 
+    style="fill:#555;" 
     y="700" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="745">
-    HTML: 0 secs
+    Markdown: 0 secs
   </text>
 </svg>
