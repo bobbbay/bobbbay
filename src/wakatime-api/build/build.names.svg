@@ -10,43 +10,43 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 4 hrs 23 mins
+    C: 2 hrs 59 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#f1e05a;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Python: 2 hrs 10 mins
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#f1e05a;" 
-    y="100" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="145">
     JavaScript: 1 hr 41 mins
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#dea584;" 
+    y="100" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="145">
+    Rust: 1 hr 25 mins
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Rust: 1 hr 25 mins
+    Other: 26 mins
   </text>
 
   <rect 
@@ -58,7 +58,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Other: 32 mins
+    JSON: 23 mins
   </text>
 
   <rect 
@@ -70,19 +70,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    JSON: 23 mins
+    Git Config: 10 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#3572A5;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Git Config: 15 mins
+    Python: 10 mins
   </text>
 
   <rect 
@@ -118,55 +118,55 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Text: 3 mins
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="500" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="545">
     YAML: 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#00B4AB;" 
+    y="500" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="545">
+    Dart: 1 min
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#e34c26;" 
     y="550" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    Dart: 1 min
+    HTML: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:null;" 
+    style="fill:#555;" 
     y="600" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
-    CMake: 0 secs
+    Text: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#e34c26;" 
+    style="fill:null;" 
     y="650" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="695">
-    HTML: 0 secs
+    CMake: 0 secs
   </text>
 
   <rect 
