@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    C: 1 hr 9 mins
+    C: 1 hr 18 mins
   </text>
 
   <rect 
@@ -46,7 +46,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Other: 6 mins
+    Bash: 14 mins
   </text>
 
   <rect 
@@ -58,42 +58,42 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    YAML: 2 mins
+    Other: 8 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#e34c26;" 
+    style="fill:#555;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    HTML: 2 mins
+    YAML: 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#e34c26;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Git Config: 0 secs
+    HTML: 2 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#555;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Python: 0 secs
+    Git Config: 0 secs
   </text>
 </svg>

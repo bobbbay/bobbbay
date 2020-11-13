@@ -4,56 +4,56 @@
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#00B4AB" 
     stroke-width="3" 
-    stroke-dasharray="51.61 48.39"
+    stroke-dasharray="47.63 52.37"
     stroke-dashoffset="125">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555555" 
     stroke-width="3" 
-    stroke-dasharray="24.12 75.88"
-    stroke-dashoffset="73.39">
+    stroke-dasharray="24.95 75.05"
+    stroke-dashoffset="77.37">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555" 
     stroke-width="3" 
-    stroke-dasharray="20.42 79.58"
-    stroke-dashoffset="49.269999999999996">
+    stroke-dasharray="18.84 81.16"
+    stroke-dashoffset="52.42">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555" 
     stroke-width="3" 
-    stroke-dasharray="2.28 97.72"
-    stroke-dashoffset="28.849999999999994">
+    stroke-dasharray="4.49 95.51"
+    stroke-dashoffset="33.58">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555" 
     stroke-width="3" 
-    stroke-dasharray="0.82 99.18"
-    stroke-dashoffset="26.569999999999993">
+    stroke-dasharray="2.65 97.35"
+    stroke-dashoffset="29.090000000000003">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#555" 
+    stroke-width="3" 
+    stroke-dasharray="0.75 99.25"
+    stroke-dashoffset="26.439999999999998">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#e34c26" 
     stroke-width="3" 
-    stroke-dasharray="0.71 99.29"
-    stroke-dashoffset="25.75">
+    stroke-dasharray="0.66 99.34"
+    stroke-dashoffset="25.689999999999998">
   </circle>
   <circle class="donut-segment" 
     cx="21" cy="21" r="15.91549430918954" 
     fill="transparent" stroke="#555" 
     stroke-width="3" 
     stroke-dasharray="0.03 99.97"
-    stroke-dashoffset="25.040000000000006">
-  </circle>
-  <circle class="donut-segment" 
-    cx="21" cy="21" r="15.91549430918954" 
-    fill="transparent" stroke="#3572A5" 
-    stroke-width="3" 
-    stroke-dasharray="0 100"
-    stroke-dashoffset="25.010000000000005">
+    stroke-dashoffset="25.03">
   </circle>
 </svg>
