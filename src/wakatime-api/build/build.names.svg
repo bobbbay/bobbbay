@@ -1,52 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="450" width="900"
+  height="500" width="1000"
 >
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#555555;" 
     y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Other: 1 hr 53 mins
+    C: 4 hrs 38 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#555;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Python: 48 mins
+    Other: 1 hr 53 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#3572A5;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    NASM: 25 mins
+    Python: 48 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555555;" 
+    style="fill:#555;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    C: 16 mins
+    NASM: 25 mins
   </text>
 
   <rect 
@@ -70,42 +70,54 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Git Config: 2 mins
+    Git Config: 3 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:null;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Makefile: 0 secs
+    CMake: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#c065db;" 
+    style="fill:#427819;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Emacs Lisp: 0 secs
+    Makefile: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#c065db;" 
     y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
+    Emacs Lisp: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="450" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="495">
     Text: 0 secs
   </text>
 </svg>
