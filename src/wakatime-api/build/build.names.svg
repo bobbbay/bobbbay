@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="500" width="1000"
+  height="450" width="900"
 >
   <rect 
     width="50" height="50" 
-    style="fill:#555555;" 
+    style="fill:#555;" 
     y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 5 hrs 8 mins
+    Other: 1 hr 16 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#555555;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Other: 1 hr 16 mins
+    C: 46 mins
   </text>
 
   <rect 
@@ -58,7 +58,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Git Config: 13 mins
+    Git Config: 12 mins
   </text>
 
   <rect 
@@ -75,49 +75,37 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:null;" 
+    style="fill:#555;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    CMake: 1 min
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="350" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="395">
     SQL: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#e34c26;" 
-    y="400" 
+    y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
-    x="60" y="445">
+    x="60" y="395">
     HTML: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#f34b7d;" 
-    y="450" 
+    y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
-    x="60" y="495">
+    x="60" y="445">
     C++: 0 secs
   </text>
 </svg>
