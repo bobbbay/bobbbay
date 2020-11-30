@@ -15,38 +15,38 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#555555;" 
+    style="fill:#3572A5;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    C: 46 mins
+    Python: 28 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#555555;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Python: 28 mins
+    C: 16 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00ADD8;" 
+    style="fill:#555;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Go: 22 mins
+    Git: 12 mins
   </text>
 
   <rect 
@@ -58,19 +58,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Git Config: 12 mins
+    Git Config: 11 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00ADD8;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Git: 12 mins
+    Go: 8 mins
   </text>
 
   <rect 
