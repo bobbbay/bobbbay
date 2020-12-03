@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="500" width="1000"
+  height="450" width="900"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Other: 1 hr 1 min
+    NASM: 1 hr 59 mins
   </text>
 
   <rect 
@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    NASM: 37 mins
+    Other: 1 hr
   </text>
 
   <rect 
@@ -58,7 +58,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Python: 6 mins
+    Python: 7 mins
   </text>
 
   <rect 
@@ -70,7 +70,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Makefile: 1 min
+    Makefile: 3 mins
   </text>
 
   <rect 
@@ -87,37 +87,25 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    SQL: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:null;" 
-    y="400" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="445">
     CMake: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#f34b7d;" 
-    y="450" 
+    y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
-    x="60" y="495">
+    x="60" y="445">
     C++: 0 secs
   </text>
 </svg>
