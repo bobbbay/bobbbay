@@ -3,26 +3,26 @@
 >
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#199f4b;" 
     y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    NASM: 2 hrs 24 mins
+    VimL: 3 hrs 50 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#199f4b;" 
+    style="fill:#555;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    VimL: 2 hrs
+    NASM: 2 hrs 24 mins
   </text>
 
   <rect 
@@ -46,7 +46,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Other: 21 mins
+    Other: 23 mins
   </text>
 
   <rect 
@@ -70,7 +70,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    JSON: 7 mins
+    Git Config: 8 mins
   </text>
 
   <rect 
@@ -82,43 +82,43 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Bash: 5 mins
+    JSON: 7 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:#555;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Makefile: 3 mins
+    Bash: 6 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#000080;" 
+    style="fill:#427819;" 
     y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Lua: 2 mins
+    Makefile: 3 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#000080;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Python: 0 secs
+    Lua: 2 mins
   </text>
 
   <rect 
@@ -130,19 +130,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
-    Git Config: 0 secs
+    Text: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#3572A5;" 
     y="550" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    Text: 0 secs
+    Python: 0 secs
   </text>
 
   <rect 
