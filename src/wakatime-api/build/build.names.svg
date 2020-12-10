@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="700" width="1400"
+  height="650" width="1300"
 >
   <rect 
     width="50" height="50" 
@@ -15,38 +15,38 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#000080;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    NASM: 1 hr 47 mins
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#000080;" 
-    y="100" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="145">
     Lua: 52 mins
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#f34b7d;" 
+    y="100" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="145">
+    C++: 39 mins
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#00ADD8;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    C++: 39 mins
+    Go: 27 mins
   </text>
 
   <rect 
@@ -70,7 +70,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Other: 23 mins
+    NASM: 24 mins
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    JSON: 7 mins
+    Other: 23 mins
   </text>
 
   <rect 
@@ -94,7 +94,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Bash: 6 mins
+    JSON: 7 mins
   </text>
 
   <rect 
@@ -106,19 +106,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Markdown: 4 mins
+    Bash: 6 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:#555;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Makefile: 2 mins
+    Markdown: 4 mins
   </text>
 
   <rect 
@@ -135,37 +135,25 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#dea584;" 
     y="550" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    Python: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#dea584;" 
-    y="600" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="645">
     Rust: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#555;" 
-    y="650" 
+    y="600" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
-    x="60" y="695">
+    x="60" y="645">
     Docker: 0 secs
   </text>
 </svg>
