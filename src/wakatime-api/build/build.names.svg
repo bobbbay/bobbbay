@@ -10,19 +10,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Go: 3 hrs 15 mins
+    Go: 2 hrs 48 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00B4AB;" 
+    style="fill:#000080;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Dart: 1 hr 55 mins
+    Lua: 2 hrs 24 mins
   </text>
 
   <rect 
@@ -34,19 +34,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Other: 1 hr 34 mins
+    Other: 2 hrs 6 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#000080;" 
+    style="fill:#00B4AB;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Lua: 58 mins
+    Dart: 1 hr 55 mins
   </text>
 
   <rect 
@@ -154,7 +154,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
-    Git Config: 1 min
+    Git Config: 0 secs
   </text>
 
   <rect 
