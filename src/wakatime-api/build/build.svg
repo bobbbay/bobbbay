@@ -1,3 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 42 42" class="donut">
   <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#6E4C13" 
+    stroke-width="3" 
+    stroke-dasharray="45.66 54.34"
+    stroke-dashoffset="125">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="null" 
+    stroke-width="3" 
+    stroke-dasharray="22.15 77.85"
+    stroke-dashoffset="79.34">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#555" 
+    stroke-width="3" 
+    stroke-dasharray="19.02 80.98"
+    stroke-dashoffset="57.19">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#555" 
+    stroke-width="3" 
+    stroke-dasharray="8.83 91.17"
+    stroke-dashoffset="38.17">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#555" 
+    stroke-width="3" 
+    stroke-dasharray="3.5 96.5"
+    stroke-dashoffset="29.340000000000003">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#427819" 
+    stroke-width="3" 
+    stroke-dasharray="0.57 99.43"
+    stroke-dashoffset="25.840000000000003">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#555" 
+    stroke-width="3" 
+    stroke-dasharray="0.21 99.79"
+    stroke-dashoffset="25.27000000000001">
+  </circle>
+  <circle class="donut-segment" 
+    cx="21" cy="21" r="15.91549430918954" 
+    fill="transparent" stroke="#555555" 
+    stroke-width="3" 
+    stroke-dasharray="0.08 99.92"
+    stroke-dashoffset="25.060000000000016">
+  </circle>
 </svg>
