@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Go: 5 hrs 31 mins
+    Go: 6 hrs 56 mins
   </text>
 
   <rect 
@@ -22,67 +22,67 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    C: 2 hrs 43 mins
+    C: 1 hr 59 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#000080;" 
+    style="fill:#00B4AB;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Lua: 1 hr 50 mins
+    Dart: 1 hr 50 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#3572A5;" 
+    style="fill:#000080;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Python: 1 hr 1 min
+    Lua: 1 hr 25 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#3572A5;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Markdown: 45 mins
+    Python: 1 hr 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00B4AB;" 
+    style="fill:#555;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Dart: 29 mins
+    Markdown: 45 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#7e7eff;" 
+    style="fill:#555;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Nix: 11 mins
+    YAML: 30 mins
   </text>
 
   <rect 
@@ -94,67 +94,67 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Git Config: 8 mins
+    Other: 13 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#7e7eff;" 
     y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Other: 8 mins
+    Nix: 11 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    YAML: 4 mins
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="500" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="545">
-    NASM: 4 mins
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:null;" 
-    y="550" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="595">
     CMake: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#199f4b;" 
+    y="500" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="545">
+    VimL: 1 min
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#427819;" 
+    y="550" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="595">
+    Makefile: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
     y="600" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
-    VimL: 1 min
+    Git Config: 0 secs
   </text>
 
   <rect 
