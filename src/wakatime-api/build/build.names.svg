@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="800" width="1600"
+  height="750" width="1500"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Go: 7 hrs 55 mins
+    Go: 7 hrs 56 mins
   </text>
 
   <rect 
@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Dart: 4 hrs 2 mins
+    Dart: 4 hrs 48 mins
   </text>
 
   <rect 
@@ -34,7 +34,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    C: 1 hr 59 mins
+    C: 2 hrs 27 mins
   </text>
 
   <rect 
@@ -46,7 +46,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Python: 1 hr 51 mins
+    Python: 1 hr 41 mins
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    YAML: 32 mins
+    YAML: 36 mins
   </text>
 
   <rect 
@@ -94,31 +94,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Other: 17 mins
+    Other: 19 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#7e7eff;" 
+    style="fill:#427819;" 
     y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Nix: 11 mins
+    Makefile: 12 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#000080;" 
+    style="fill:#7e7eff;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Lua: 6 mins
+    Nix: 1 min
   </text>
 
   <rect 
@@ -159,37 +159,25 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:#555;" 
     y="650" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="695">
-    Makefile: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="700" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="745">
     Git Config: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#f34b7d;" 
-    y="750" 
+    y="700" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
-    x="60" y="795">
+    x="60" y="745">
     C++: 0 secs
   </text>
 </svg>
