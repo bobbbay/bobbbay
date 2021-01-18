@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="650" width="1300"
+  height="600" width="1200"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 6 hrs 49 mins
+    C: 8 hrs 35 mins
   </text>
 
   <rect 
@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Dart: 4 hrs 55 mins
+    Dart: 4 hrs 25 mins
   </text>
 
   <rect 
@@ -34,7 +34,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Go: 3 hrs 9 mins
+    Go: 2 hrs 27 mins
   </text>
 
   <rect 
@@ -70,7 +70,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    YAML: 36 mins
+    YAML: 31 mins
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Other: 17 mins
+    Other: 15 mins
   </text>
 
   <rect 
@@ -118,19 +118,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Markdown: 2 mins
+    XML: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#199f4b;" 
+    style="fill:#555;" 
     y="500" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
-    VimL: 1 min
+    Markdown: 0 secs
   </text>
 
   <rect 
@@ -142,18 +142,6 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    XML: 1 min
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="600" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="645">
     Git Config: 0 secs
   </text>
 </svg>
