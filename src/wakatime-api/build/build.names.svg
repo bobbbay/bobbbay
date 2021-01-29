@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="550" width="1100"
+  height="650" width="1300"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 4 hrs 36 mins
+    C: 4 hrs 6 mins
   </text>
 
   <rect 
@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    CMake: 55 mins
+    CMake: 54 mins
   </text>
 
   <rect 
@@ -51,14 +51,14 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#dea584;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Git Config: 16 mins
+    Rust: 11 mins
   </text>
 
   <rect 
@@ -70,55 +70,55 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Other: 8 mins
+    Git Config: 9 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00ADD8;" 
+    style="fill:#555;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Go: 4 mins
+    Properties: 9 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#f34b7d;" 
+    style="fill:#555;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    C++: 4 mins
+    Other: 8 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00ADD8;" 
     y="400" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Text: 3 mins
+    Go: 4 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#f34b7d;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Bash: 0 secs
+    C++: 3 mins
   </text>
 
   <rect 
@@ -130,6 +130,30 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="545">
+    Text: 3 mins
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="550" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="595">
+    Bash: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="600" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="645">
     Markdown: 0 secs
   </text>
 </svg>
