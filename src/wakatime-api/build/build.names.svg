@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="650" width="1300"
+  height="700" width="1400"
 >
   <rect 
     width="50" height="50" 
@@ -10,43 +10,43 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 4 hrs 6 mins
+    C: 1 hr 29 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:null;" 
+    style="fill:#427819;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    CMake: 54 mins
+    Makefile: 38 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:#199f4b;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Makefile: 43 mins
+    VimL: 34 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#199f4b;" 
+    style="fill:null;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    VimL: 34 mins
+    CMake: 26 mins
   </text>
 
   <rect 
@@ -70,7 +70,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Git Config: 9 mins
+    Other: 11 mins
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Properties: 9 mins
+    Properties: 10 mins
   </text>
 
   <rect 
@@ -94,7 +94,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Other: 8 mins
+    Git Config: 9 mins
   </text>
 
   <rect 
@@ -142,7 +142,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="595">
-    Bash: 0 secs
+    JSON: 0 secs
   </text>
 
   <rect 
@@ -154,6 +154,18 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="645">
+    Bash: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#555;" 
+    y="650" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="695">
     Markdown: 0 secs
   </text>
 </svg>
