@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="550" width="1100"
+  height="500" width="1000"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 1 hr 7 mins
+    C: 1 hr 1 min
   </text>
 
   <rect 
@@ -39,26 +39,26 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:#dea584;" 
+    style="fill:#555;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Rust: 11 mins
+    Markdown: 9 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00ADD8;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Properties: 10 mins
+    Go: 7 mins
   </text>
 
   <rect 
@@ -70,31 +70,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    Markdown: 9 mins
+    JSON: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00ADD8;" 
+    style="fill:#427819;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Go: 7 mins
+    Makefile: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    JSON: 0 secs
+    CMake: 0 secs
   </text>
 
   <rect 
@@ -106,30 +106,18 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    Git Config: 0 secs
+    Properties: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#427819;" 
+    style="fill:#dea584;" 
     y="450" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="495">
-    Makefile: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:null;" 
-    y="500" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="545">
-    CMake: 0 secs
+    Rust: 0 secs
   </text>
 </svg>
