@@ -3,38 +3,38 @@
 >
   <rect 
     width="50" height="50" 
-    style="fill:#00ADD8;" 
+    style="fill:#00B4AB;" 
     y="0" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    Go: 2 hrs 21 mins
+    Dart: 3 hrs 23 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#00B4AB;" 
+    style="fill:#00ADD8;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Dart: 2 hrs 10 mins
+    Go: 2 hrs 17 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555555;" 
+    style="fill:#dea584;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    C: 1 hr 20 mins
+    Rust: 55 mins
   </text>
 
   <rect 
@@ -46,31 +46,31 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Other: 35 mins
+    Other: 44 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#dea584;" 
+    style="fill:#e34c26;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Rust: 29 mins
+    HTML: 27 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#e34c26;" 
+    style="fill:#555555;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    HTML: 27 mins
+    C: 26 mins
   </text>
 
   <rect 
@@ -82,7 +82,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Markdown: 23 mins
+    Markdown: 13 mins
   </text>
 
   <rect 
