@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
-  height="550" width="1100"
+  height="400" width="800"
 >
   <rect 
     width="50" height="50" 
@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 3 hrs 49 mins
+    C: 7 hrs 39 mins
   </text>
 
   <rect 
@@ -22,19 +22,19 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Markdown: 18 mins
+    Markdown: 16 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:#00ADD8;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Other: 15 mins
+    Go: 15 mins
   </text>
 
   <rect 
@@ -46,43 +46,43 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Dart: 7 mins
+    Dart: 11 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#dea584;" 
+    style="fill:#555;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Rust: 4 mins
+    XML: 1 min
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="250" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="295">
-    XML: 1 min
+    CMake: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#f34b7d;" 
+    style="fill:#555;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    C++: 1 min
+    Git Config: 0 secs
   </text>
 
   <rect 
@@ -94,42 +94,6 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Git Config: 1 min
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#74283c;" 
-    y="400" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="445">
-    Prolog: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:null;" 
-    y="450" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="495">
-    CMake: 0 secs
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:#555;" 
-    y="500" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="545">
     YAML: 0 secs
   </text>
 </svg>
