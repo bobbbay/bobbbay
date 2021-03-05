@@ -10,7 +10,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="45">
-    C: 9 hrs 50 mins
+    C: 10 hrs 9 mins
   </text>
 
   <rect 
@@ -22,7 +22,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    Makefile: 1 hr 56 mins
+    Makefile: 1 hr 43 mins
   </text>
 
   <rect 
@@ -34,7 +34,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Markdown: 43 mins
+    Markdown: 34 mins
   </text>
 
   <rect 
@@ -46,55 +46,55 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    GAS: 18 mins
+    Other: 15 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="200" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Other: 16 mins
-  </text>
-
-  <rect 
-    width="50" height="50" 
-    style="fill:null;" 
-    y="250" 
-  />
-  <text 
-    font-family="Arial, Helvetica, sans-serif" 
-    font-size="50" 
-    x="60" y="295">
     CMake: 4 mins
   </text>
 
   <rect 
     width="50" height="50" 
     style="fill:#555;" 
+    y="250" 
+  />
+  <text 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="50" 
+    x="60" y="295">
+    GAS: 0 secs
+  </text>
+
+  <rect 
+    width="50" height="50" 
+    style="fill:#438eff;" 
     y="300" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="345">
-    Git Config: 0 secs
+    Objective-C: 0 secs
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#438eff;" 
+    style="fill:#555;" 
     y="350" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="395">
-    Objective-C: 0 secs
+    NASM: 0 secs
   </text>
 
   <rect 
@@ -106,6 +106,6 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="445">
-    NASM: 0 secs
+    Git Config: 0 secs
   </text>
 </svg>
