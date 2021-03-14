@@ -15,38 +15,38 @@
 
   <rect 
     width="50" height="50" 
-    style="fill:null;" 
+    style="fill:#dea584;" 
     y="50" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="95">
-    CMake: 1 hr 43 mins
+    Rust: 4 hrs 26 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#555;" 
+    style="fill:null;" 
     y="100" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="145">
-    Markdown: 44 mins
+    CMake: 1 hr 46 mins
   </text>
 
   <rect 
     width="50" height="50" 
-    style="fill:#dea584;" 
+    style="fill:#555;" 
     y="150" 
   />
   <text 
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="195">
-    Rust: 22 mins
+    Markdown: 44 mins
   </text>
 
   <rect 
@@ -58,7 +58,7 @@
     font-family="Arial, Helvetica, sans-serif" 
     font-size="50" 
     x="60" y="245">
-    Git Config: 8 mins
+    Git Config: 9 mins
   </text>
 
   <rect 
