@@ -1,10 +1,1 @@
-# Bobbbay.
-
-## Wakatime
-
-<img src="https://github.com/Bobbbay/bobbbay/blob/master/src/wakatime-api/build/build.svg" width="44%"></img>
-<img src="https://github.com/Bobbbay/bobbbay/blob/master/src/wakatime-api/build/build.names.svg" width="54%"></img>
-
-<hr/>
-
-<sub><sup>This README file was dynamically written in an actual programming language (and more soon to come). See how this works at [README.explanation.md](https://github.com/Bobbbay/bobbbay/blob/master/README.explanation.md)</sup></sub>
+*Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases.*
