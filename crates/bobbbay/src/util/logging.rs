@@ -6,13 +6,8 @@ use color_eyre::eyre::Result;
 pub(crate) fn setup_logging() -> Result<()> {
     use tracing_error::ErrorLayer;
     use tracing_subscriber::prelude::*;
-    use tracing_subscriber::fmt;
-
-    // Set up tracing.
-    let fmt_layer = fmt::layer().with_target(false);
 
     tracing_subscriber::registry()
-        .with(fmt_layer)
         .with(ErrorLayer::default())
         .try_init()?;
 

@@ -4,6 +4,7 @@ use tera::Tera;
 
 pub fn templates() -> Result<Extension<Tera>> {
     let templates = Tera::new("templates/**/*").unwrap();
+
     tracing::info!(
         "Registered templates: {:?}",
         templates.get_template_names().collect::<Vec<_>>()

@@ -13,13 +13,13 @@ pub enum AppError {
 
 impl IntoResponse for AppError {
     fn into_response(self) -> Response {
-        let (status, message) = match self {
-            AppError::TemplateError(e) => (StatusCode::NOT_FOUND, e.to_string()),
+        let (status, message): (u16, String) = match self {
+            AppError::TemplateError(e) => (StatusCode::NOT_FOUND.into(), e.to_string()),
         };
 
         // TODO: figure out a way around having to re-parse all templates.
         let mut ctx = tera::Context::new();
-        // TODO: ctx.insert("status", &status);
+        ctx.insert("status", &status);
         ctx.insert("message", &message);
         let body = Tera::new("templates/**/*")
             .unwrap()

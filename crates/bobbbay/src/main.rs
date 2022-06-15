@@ -1,19 +1,29 @@
 pub mod articles;
+pub mod build;
 pub mod error;
 pub mod extensions;
 pub mod util;
 
-use axum::{body::Body, response::Html, routing::get, Extension, Router};
+use axum::{
+    body::Body,
+    http::StatusCode,
+    response::{Html, IntoResponse},
+    routing::get_service,
+    Extension, Router,
+};
 use color_eyre::eyre;
 use error::AppError;
 use std::net::SocketAddr;
 use tera::Tera;
-use tower::ServiceBuilder;
+use tower_http::{services::ServeDir, trace::TraceLayer};
 use tracing::{debug, instrument};
 
 #[tokio::main]
 async fn main() -> eyre::Result<()> {
     util::logging::setup_logging()?;
+
+    // Builds everything into a static directory called "build".
+    build::Builder::default().build()?;
 
     let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
     debug!("listening on {}", addr);
@@ -25,11 +35,15 @@ async fn main() -> eyre::Result<()> {
     Ok(())
 }
 
+#[instrument]
 fn app() -> eyre::Result<Router<Body>> {
     Ok(Router::new()
-        .route("/", get(index))
-        .route("/articles/:name", get(articles::get_article))
-        .layer(ServiceBuilder::new().layer(extensions::templates()?)))
+        .fallback(get_service(ServeDir::new("./build")).handle_error(handle_error))
+        .layer(TraceLayer::new_for_http()))
+}
+
+async fn handle_error(_err: std::io::Error) -> impl IntoResponse {
+    (StatusCode::INTERNAL_SERVER_ERROR, "Something went wrong...")
 }
 
 #[instrument]

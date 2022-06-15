@@ -4,3 +4,6 @@ target/
 # Nix
 .direnv/
 result
+
+# Application-specific
+build/
