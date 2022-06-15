@@ -3,7 +3,7 @@
 use color_eyre::eyre::Result;
 
 /// Set up tracing and eyre.
-crate fn setup_logging() -> Result<()> {
+pub(crate) fn setup_logging() -> Result<()> {
     use tracing_error::ErrorLayer;
     use tracing_subscriber::prelude::*;
     use tracing_subscriber::fmt;
