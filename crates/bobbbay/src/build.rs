@@ -14,12 +14,9 @@ impl<'a> Builder<'a> {
         std::fs::remove_dir_all(self.build_directory)?;
         std::fs::create_dir_all(self.build_directory)?;
 
-        info!("Taking a handle to Pandoc...");
-        let mut pandoc = pandoc::new();
-
         info!("Parsing templates...");
         let templates = tera::Tera::new("templates/**/*")?;
-        let ctx = tera::Context::new();
+        let mut ctx = tera::Context::new();
 
         info!("Rendering non-contextual templates...");
         let file = File::create(format!("{}/index.html", self.build_directory))?;
@@ -44,6 +41,43 @@ impl<'a> Builder<'a> {
         }
 
         // TODO: Export org files to html with pandoc, from content/{articles,notes,series}.
+
+        info!("Building articles...");
+
+        std::fs::create_dir_all(format!("{}/articles", self.build_directory))?;
+
+        for article in glob::glob("content/articles/**/*.org")? {
+            match article {
+                Ok(path) => {
+                    // Org -> HTML
+                    let mut pandoc = pandoc::new();
+
+                    let path = path.to_str().unwrap();
+                    let mut target_name = std::path::PathBuf::from(path);
+                    target_name.set_extension("");
+                    let target_name = target_name.file_name().unwrap().to_str().unwrap();
+                    let target_path = std::path::PathBuf::from(format!("{}/articles/{}.html", self.build_directory, target_name));
+
+                    pandoc.set_input_format(pandoc::InputFormat::Org, vec![]);
+                    pandoc.set_output_format(pandoc::OutputFormat::Html5, vec![]);
+                    pandoc.set_output(pandoc::OutputKind::File(target_path.clone()));
+
+                    pandoc.add_input(path);
+
+                    pandoc.execute()?;
+
+                    // HTML -> Tera -> HTML
+                    let output = std::fs::read_to_string(&target_path)?;
+                    let mut ctx = tera::Context::new();
+
+                    std::fs::remove_file(&target_path)?;
+
+                    ctx.insert("content", &output);
+                    templates.render_to("article.tera", &ctx, File::create(&target_path)?);
+                },
+                Err(e) => panic!("{}", e),
+            }
+        }
 
         // TODO: Index all of these in a database.
 

@@ -1,3 +1,5 @@
+{% include "includes/header.tera" %}
+
 An error was encountered.
 
 {{status}}
