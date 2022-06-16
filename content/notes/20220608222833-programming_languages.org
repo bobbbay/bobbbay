@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       99a52292-517c-432f-b418-b779f62947c1
+:END:
+#+title: Programming Languages
+
+Here are some great programming languages:
+
+ * [[id:4be4ed5d-7b6b-4599-9864-124e2a0fb61f][Emacs Lisp]]
+ * [[id:2fe1eb9a-1784-4658-aed5-20716b0b7f6d][Rust]]
+ * [[id:3f40a70b-7ccf-4203-8604-c56540928a33][Scheme]]
+ * [[id:191a050c-48a9-49db-96ae-bee204312207][Haskell]]

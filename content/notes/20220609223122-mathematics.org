@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c6bbce0c-e7d2-4f4d-92de-a0012165ceb1
+:END:
+#+title: Mathematics
+
+Some of the fundamental bases of mathematics are:
+
+ * [[id:569031d2-53ed-4149-a0b5-75bc7590e2a1][Trigonometry]]
+ * [[id:707e6cb4-7bdb-405d-b855-212c0fac6dd8][Sequences and series]]

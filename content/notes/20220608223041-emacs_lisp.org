@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4be4ed5d-7b6b-4599-9864-124e2a0fb61f
+:END:
+#+title: Emacs Lisp
+
+The language for Emacs.

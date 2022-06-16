@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       191a050c-48a9-49db-96ae-bee204312207
+:END:
+#+title: Haskell
+#+tags: @programming
+
+Haskell is a pure programming language, meaning that its evaluation is similar to [[id:c6bbce0c-e7d2-4f4d-92de-a0012165ceb1][Mathematics]].
+
+Ghcup is to Haskell as Rustup is to [[id:2fe1eb9a-1784-4658-aed5-20716b0b7f6d][Rust]].

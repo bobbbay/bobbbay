@@ -22,12 +22,20 @@ impl<'a> Builder<'a> {
         let file = File::create(format!("{}/index.html", self.build_directory))?;
         templates.render_to("index.tera", &ctx, file)?;
 
-        info!("Copying content/static to {}/static...", self.build_directory);
+        info!(
+            "Copying content/static to {}/static...",
+            self.build_directory
+        );
         assert!(std::path::PathBuf::from("content/static").exists());
-        fs_extra::dir::copy("content/static", format!("{}", self.build_directory), &fs_extra::dir::CopyOptions::new())?;
+        fs_extra::dir::copy(
+            "content/static",
+            format!("{}", self.build_directory),
+            &fs_extra::dir::CopyOptions::new(),
+        )?;
 
         info!("Building all SCSS stylesheets to CSS...");
-        for stylesheet in glob::glob(format!("{}/static/**/*.scss", self.build_directory).as_str())? {
+        for stylesheet in glob::glob(format!("{}/static/**/*.scss", self.build_directory).as_str())?
+        {
             match stylesheet {
                 Ok(path) => {
                     let path = path.to_str().unwrap();
@@ -35,12 +43,10 @@ impl<'a> Builder<'a> {
                     let mut path = std::path::PathBuf::from(path);
                     path.set_extension("css");
                     fs_extra::file::write_all(path, &sass)?;
-                },
+                }
                 Err(e) => panic!("{}", e),
             }
         }
-
-        // TODO: Export org files to html with pandoc, from content/{articles,notes,series}.
 
         info!("Building articles...");
 
@@ -56,7 +62,10 @@ impl<'a> Builder<'a> {
                     let mut target_name = std::path::PathBuf::from(path);
                     target_name.set_extension("");
                     let target_name = target_name.file_name().unwrap().to_str().unwrap();
-                    let target_path = std::path::PathBuf::from(format!("{}/articles/{}.html", self.build_directory, target_name));
+                    let target_path = std::path::PathBuf::from(format!(
+                        "{}/articles/{}.html",
+                        self.build_directory, target_name
+                    ));
 
                     pandoc.set_input_format(pandoc::InputFormat::Org, vec![]);
                     pandoc.set_output_format(pandoc::OutputFormat::Html5, vec![]);
@@ -74,7 +83,87 @@ impl<'a> Builder<'a> {
 
                     ctx.insert("content", &output);
                     templates.render_to("article.tera", &ctx, File::create(&target_path)?);
-                },
+                }
+                Err(e) => panic!("{}", e),
+            }
+        }
+
+        info!("Building notes...");
+
+        std::fs::create_dir_all(format!("{}/notes", self.build_directory))?;
+
+        for note in glob::glob("content/notes/**/*.org")? {
+            match note {
+                Ok(path) => {
+                    // Org -> HTML
+                    let mut pandoc = pandoc::new();
+
+                    let path = path.to_str().unwrap();
+                    let mut target_name = std::path::PathBuf::from(path);
+                    target_name.set_extension("");
+                    let target_name = target_name.file_name().unwrap().to_str().unwrap();
+                    let target_path = std::path::PathBuf::from(format!(
+                        "{}/notes/{}.html",
+                        self.build_directory, target_name
+                    ));
+
+                    pandoc.set_input_format(pandoc::InputFormat::Org, vec![]);
+                    pandoc.set_output_format(pandoc::OutputFormat::Html5, vec![]);
+                    pandoc.set_output(pandoc::OutputKind::File(target_path.clone()));
+
+                    pandoc.add_input(path);
+
+                    pandoc.execute()?;
+
+                    // HTML -> Tera -> HTML
+                    let output = std::fs::read_to_string(&target_path)?;
+                    let mut ctx = tera::Context::new();
+
+                    std::fs::remove_file(&target_path)?;
+
+                    ctx.insert("content", &output);
+                    templates.render_to("note.tera", &ctx, File::create(&target_path)?);
+                }
+                Err(e) => panic!("{}", e),
+            }
+        }
+
+        info!("Building series...");
+
+        std::fs::create_dir_all(format!("{}/series", self.build_directory))?;
+
+        for serie in glob::glob("content/serie/**/*.org")? {
+            match serie {
+                Ok(path) => {
+                    // Org -> HTML
+                    let mut pandoc = pandoc::new();
+
+                    let path = path.to_str().unwrap();
+                    let mut target_name = std::path::PathBuf::from(path);
+                    target_name.set_extension("");
+                    let target_name = target_name.file_name().unwrap().to_str().unwrap();
+                    let target_path = std::path::PathBuf::from(format!(
+                        "{}/series/{}.html",
+                        self.build_directory, target_name
+                    ));
+
+                    pandoc.set_input_format(pandoc::InputFormat::Org, vec![]);
+                    pandoc.set_output_format(pandoc::OutputFormat::Html5, vec![]);
+                    pandoc.set_output(pandoc::OutputKind::File(target_path.clone()));
+
+                    pandoc.add_input(path);
+
+                    pandoc.execute()?;
+
+                    // HTML -> Tera -> HTML
+                    let output = std::fs::read_to_string(&target_path)?;
+                    let mut ctx = tera::Context::new();
+
+                    std::fs::remove_file(&target_path)?;
+
+                    ctx.insert("content", &output);
+                    templates.render_to("serie.tera", &ctx, File::create(&target_path)?);
+                }
                 Err(e) => panic!("{}", e),
             }
         }

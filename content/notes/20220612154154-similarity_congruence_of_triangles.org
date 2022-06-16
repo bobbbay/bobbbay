@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       c6c7bd27-ebc6-4c46-affc-f2970fc7dffe
+:END:
+#+title: Similarity/Congruence of triangles
+
+** Similar triangles
+
+Similar triangles have proportional corresponding sides - i.e. they are an enlargement/reduction of one another. The shapes are the same, but the sizes don't have to be. If $\angle{A} = \angle{X}$, $\angle{B} = \angle{Y}$ and $\angle{C} = \angle{Z}$ then $\triangle{ABC} \sim \triangle{XYZ}$, and $\frac{AB}{XY}=\frac{BC}{YZ}=\frac{CA}{ZX}$.
+
+** Congruent triangles
+
+Congruent triangles have the same shape and size, but can be rotated in any way. They must be identical. If $\angle{A} = \angle{X}$, $\angle{B} = \angle{Y}$ and $\angle{C} = \angle{Z}$, and if $AB = XY$ or $BC = YZ$ or $AC = XZ$ then $\triangle{ABC} \cong \triangle{XYZ}$, and $\frac{AB}{XY}=\frac{BC}{YZ}=\frac{CA}{ZX}$.
+
+** Comparing triangles
+
+When comparing similar triangles, the "scale factor" is the factor by which the triangles are scaled. If the scale factor $>1$, then the triangle is larger. If the scale factor is between 0 and 1, it's a reduction of the first triangle. If the scale factor is 1, the triangles are congruent.
+
+** Application
+
+*** Example 1
+
+Problem: Shiva is standing beside a lighthouse on a sunny day. She measures the length of her shadow and the length of the shadow cast by the lighthouse. Shiva is 1.6 meters tall, the length of her shadow is 4.8 meters, and the shadow cast by the lighthouse is 75 meters. How tall is the lighthouse?
+
+Solution: The shadows of Shiva and the lighthouse can be denoted as $AB$ and $XY$. Assuming that $\angle A$ and $\angle C$ are the same, then the triangles are similar. Their scale factor is $75 \div 4.8$, i.e. $15.625$. By finding the product of the scale factor and Shiva's height, we can find the height of the lighthouse: $25$.
+
+*** Example 2
+
+Problem: If $\triangle ABC \sim \triangle DEF$, and the lengths of $AB = 8cm$ and $DE = 12cm$, the perimeter of $\triangle ABC$ is 20cm, what is the perimeter of $\triangle DEF$? What is the area of $\triangle ABC$ if the area of $\triangle DEF$ is 30 cm^2?
+
+Solution: We can calculate the scale factor between $\triangle ABC$ and $\triangle DEF$, since we know that they are similar. We can then use this to go back and forth between conversions.

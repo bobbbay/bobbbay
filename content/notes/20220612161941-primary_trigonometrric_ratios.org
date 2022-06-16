@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       da5b066f-5d59-4fd9-a250-950532b5cea5
+:END:
+#+title: Primary trigonometric ratios
+
+** SOH CAH TOA
+
+SOH CAH TOA is a

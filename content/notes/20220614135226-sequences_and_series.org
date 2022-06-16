@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       707e6cb4-7bdb-405d-b855-212c0fac6dd8
+:END:
+#+title: Sequences and series
+
+** Sequences
+
+A sequence is a set of numbers.
+
+The first term of a sequence is represented by $t_1$, the second term by $t_2$, and so on. For example, in the sequence $1, 4, 9, 16, ...$, $t_1=1$ and $t_3=9$. Therefore, the general term of this sequence - something that describes each term - is represented by $t_n=n^2$. In function form, it's written as $f(n) = n^2$ (pronounced: $f$ of $n$ is $n$ squared).
+
+** Common difference ($d$)
+
+The common difference is the difference between any two successive terms, i.e. $d=t_{n}-t_{n-1}$.
+
+** Arithmetic sequences
+
+The general arithmetic sequence is written as:
+
+\begin{align*}
+    t_1 &= a\\
+    t_2 &= a + d\\
+    t_3 &= a + 2d\\
+    &...\\
+    t_{68} &= a + 67d\\
+    &...\\
+    t_n &= a + (n - 1)d\\
+\end{align*}
+
+*** Example 1
+
+Problem: Find $t_{10}$ for the arithmetic sequence $2, 6, 10, ...$.
+
+Solution: solve for $d$, create the arithmetic sequence, plug in $n=10$.
+
+\begin{align*}
+    a &= 2\\
+    n &= 10\\
+    d &= 6-2\\
+      &= 4
+\end{align*}
+
+\begin{align*}
+    t_n &= a + (n-1)d\\
+    t_n &= 2 + 4(n-1)\\
+\end{align*}
+
+\begin{align*}
+    t_{10} &= 2 + (4)(9)\\
+    t_{10} &= 36\\
+\end{align*}

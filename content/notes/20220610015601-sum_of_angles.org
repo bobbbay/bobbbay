@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cdbfdc77-93bb-4dd9-bc2c-ee45ef644ace
+:END:
+#+title: Sum of angles
+
+The sum of all angles in a triangle is always 180 degrees.
+
+TODO: Proof.

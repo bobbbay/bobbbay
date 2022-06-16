@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       569031d2-53ed-4149-a0b5-75bc7590e2a1
+:END:
+#+title: Trigonometry
+
+Trigonometry is the math of triangles. Some of its subject include:
+
+ * [[id:e06482d7-3996-4e44-8de3-8259f18f97e4][Sine Law]]
+ * [[id:da5b066f-5d59-4fd9-a250-950532b5cea5][Primary trigonometric ratios]]
+ * [[id:cdbfdc77-93bb-4dd9-bc2c-ee45ef644ace][Sum of angles]]
+ * [[id:c6c7bd27-ebc6-4c46-affc-f2970fc7dffe][Similarity/Congruence of triangles]]

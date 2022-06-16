@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       e06482d7-3996-4e44-8de3-8259f18f97e4
+:END:
+#+title: Sine Law
+
+Sine Law is the law that says that $\frac{\sin{A}}{a} = \frac{\sin{B}}{b} = \frac{\sin{C}}{c}$. This applies to *all triangles*.
+
+** Example 1
+
+Problem: Given a triangle with $A=1$, $a=20$, $C=1$, calculate $c$.
+
+Solution: Use Sine Law to create a ratio from $A$, $a$, $C$, and $c$. Plug in $A$, $a$, $C$, and solve for $c$.
+
+\begin{equation}
+\begin{aligned}
+  \frac{\sin{A}}{a}  = \frac{\sin{C}}{c}\\
+  \frac{\sin{1}}{20} = \frac{\sin{1}}{c}\\
+  (\frac{\sin{1}}{20})/(\sin{1}) = c\\
+  20 = c
+\end{aligned}
+\end{equation}
+
+Extended problem: can you solve for the rest of the triangle? Find $B$ and $b$.
+
+Extended solution: The fasted way to find this is to use the [[id:cdbfdc77-93bb-4dd9-bc2c-ee45ef644ace][Sum of angles]] law to find $b$, then solve for $B$ with Sine Law.
