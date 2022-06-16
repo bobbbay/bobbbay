@@ -7,9 +7,9 @@ pub(crate) fn setup_logging() -> Result<()> {
     use tracing_error::ErrorLayer;
     use tracing_subscriber::prelude::*;
 
-    tracing_subscriber::registry()
-        .with(ErrorLayer::default())
-        .try_init()?;
+    tracing_subscriber::fmt()
+        .event_format(tracing_subscriber::fmt::format().pretty())
+        .init();
 
     // Set up hooks.
     let (panic_hook, eyre_hook) = color_eyre::config::HookBuilder::default().into_hooks();
