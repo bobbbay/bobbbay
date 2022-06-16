@@ -4,9 +4,6 @@ use color_eyre::eyre::Result;
 
 /// Set up tracing and eyre.
 pub(crate) fn setup_logging() -> Result<()> {
-    use tracing_error::ErrorLayer;
-    use tracing_subscriber::prelude::*;
-
     tracing_subscriber::fmt()
         .event_format(tracing_subscriber::fmt::format().pretty())
         .init();

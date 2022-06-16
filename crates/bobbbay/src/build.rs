@@ -16,7 +16,7 @@ impl<'a> Builder<'a> {
 
         info!("Parsing templates...");
         let templates = tera::Tera::new("templates/**/*")?;
-        let mut ctx = tera::Context::new();
+        let ctx = tera::Context::new();
 
         info!("Rendering non-contextual templates...");
         let file = File::create(format!("{}/index.html", self.build_directory))?;
@@ -82,7 +82,7 @@ impl<'a> Builder<'a> {
                     std::fs::remove_file(&target_path)?;
 
                     ctx.insert("content", &output);
-                    templates.render_to("article.tera", &ctx, File::create(&target_path)?);
+                    templates.render_to("article.tera", &ctx, File::create(&target_path)?)?;
                 }
                 Err(e) => panic!("{}", e),
             }
@@ -122,7 +122,7 @@ impl<'a> Builder<'a> {
                     std::fs::remove_file(&target_path)?;
 
                     ctx.insert("content", &output);
-                    templates.render_to("note.tera", &ctx, File::create(&target_path)?);
+                    templates.render_to("note.tera", &ctx, File::create(&target_path)?)?;
                 }
                 Err(e) => panic!("{}", e),
             }
@@ -162,7 +162,7 @@ impl<'a> Builder<'a> {
                     std::fs::remove_file(&target_path)?;
 
                     ctx.insert("content", &output);
-                    templates.render_to("serie.tera", &ctx, File::create(&target_path)?);
+                    templates.render_to("serie.tera", &ctx, File::create(&target_path)?)?;
                 }
                 Err(e) => panic!("{}", e),
             }
