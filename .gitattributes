@@ -1,1 +1,3 @@
 *.tera linguist-language=Jinja
+*.org linguist-detectable=true
+*.org linguist-documentation=false
