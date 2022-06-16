@@ -17,9 +17,17 @@ impl<'a> Builder<'a> {
         let templates = tera::Tera::new("templates/**/*")?;
         let ctx = tera::Context::new();
 
-        // Parse templates that are meant to be built.
+        // Parse templates that are meant to be built without context.
         let file = File::create(format!("{}/index.html", self.build_directory))?;
         templates.render_to("index.tera", &ctx, file)?;
+
+        // TODO: copy content/static into build/static.
+
+        // TODO: build build/static/stylesheets/*.scss to css files
+
+        // TODO: Export org files to html with pandoc, from content/{articles,notes,series}.
+
+        // TODO: Index all of these in a database.
 
         Ok(())
     }
