@@ -1,3 +1,3 @@
 /Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases./
 
-My profile repository also houses some portfolio-specific code. [[https://github.com/bobbbay/bobbbay][Come check it out!]]
+# My profile repository also houses some portfolio-specific code. [[https://github.com/bobbbay/bobbbay][Come check it out!]]
