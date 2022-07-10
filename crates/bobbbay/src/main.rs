@@ -45,10 +45,3 @@ fn app() -> eyre::Result<Router<Body>> {
 async fn handle_error(_err: std::io::Error) -> impl IntoResponse {
     (StatusCode::INTERNAL_SERVER_ERROR, "Something went wrong...")
 }
-
-#[instrument]
-async fn index(Extension(ref mut templates): Extension<Tera>) -> Result<Html<String>, AppError> {
-    let ctx = tera::Context::new();
-    let body = templates.render("index.tera", &ctx)?;
-    Ok(Html(body))
-}

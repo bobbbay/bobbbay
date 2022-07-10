@@ -1,5 +1,5 @@
 use color_eyre::eyre::Result;
-use std::fs::File;
+use std::{fs::File, io::ErrorKind};
 use tracing::{info, instrument};
 
 #[derive(Debug)]
@@ -11,7 +11,13 @@ impl<'a> Builder<'a> {
     #[instrument]
     pub fn build(self) -> Result<()> {
         info!("Setting up build directory...");
-        std::fs::remove_dir_all(self.build_directory)?;
+        match std::fs::remove_dir_all(self.build_directory) {
+            Ok(_) => Ok(()),
+            Err(e) => match e.kind() {
+                ErrorKind::NotFound => Ok(()),
+                e @ _ => Err(e),
+            },
+        };
         std::fs::create_dir_all(self.build_directory)?;
 
         info!("Parsing templates...");
