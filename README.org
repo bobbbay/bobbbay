@@ -1,3 +1,9 @@
 /Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases./
 
 # My profile repository also houses some portfolio-specific code. [[https://github.com/bobbbay/bobbbay][Come check it out!]]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbobbbay%2Fbobbbay.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbobbbay%2Fbobbbay?ref=badge_shield)
+
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbobbbay%2Fbobbbay.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbobbbay%2Fbobbbay?ref=badge_large)
