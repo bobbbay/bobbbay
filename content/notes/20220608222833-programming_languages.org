@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       99a52292-517c-432f-b418-b779f62947c1
 :END:
-#+title: Programming Languages
+#+title: Programming languages
 
 Here are some great programming languages:
 

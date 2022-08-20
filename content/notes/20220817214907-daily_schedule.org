@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       99b66c8e-2324-48d2-801a-0f3a1d0254f4
+:END:
+#+title: Daily schedule
+#+description: Schedule for each day
+
+ * 8:00 AM: Wake up
+ * 8:05 AM: Brush teeth
+ * 8:15 AM: Breakfast
+ * 8:30 AM - 12:00 AM: Free time

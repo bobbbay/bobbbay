@@ -1,0 +1,59 @@
+#+title: MaxTech 4343 Handbook
+#+author: Areg Kostanyan
+
+** Overview
+
+Being a member of a robotics team is no easy task. There are numerous rules, regulations, and expectations that are sometimes not well-documented - some are even never written down! This handbook outlines the aforementioned rules, regulations, and expectations of MaxTech 4343 in a clear and effective manner.
+
+** Background
+
+*** FIRST
+
+FIRST - /For Inspiration and Recognition of Science and Technology/ - is an organization geared towards promoting science and technology to students around the world. It maintains the /FIRST Robotics Competition/ for high-schoolers, as well as /First Lego League/ for elementary students.
+
+*** Gracious Professionalism
+
+Gracious Professionalism (GP) is a "we're all in this together" attitude promoted by FIRST. In other words, GP is to robotics as sportsmanship is to sports - it acknowledges that the opposing teams are people too, who also want to work towards a goal. Acting GP includes a variety of actions, such as refraining from swearing or helping (usually rookie) teams in need. GP is highly valued in the FIRST Robotics community.
+
+*** TODO MaxTech 4343
+
+** Rules and regulations
+
+** Expectations
+
+*** Safety
+
+In order to access machines, students and mentors must:
+   * Have agreed to and signed the Team Contract
+   * Have signed the consent and liability release form
+   * Passed the safety test at least once in the past 3 years (or have another license)
+
+Additional expectations include:
+ * Safety glasses are worn at all required times
+ * All safety rules are to be respected, in and out of the shop
+
+*** Event planning
+
+If you are planning an event, you *must* outline:
+
+ * The date/s
+ * The venue/s
+ * The mode/s of transportation
+ * The attendance area at the venue
+ * What time we must be there and what time we will return
+ * Items to bring, such as:
+   * Robots
+   * Tools/toolchests
+   * Food
+ * How/when the aforementioned items will be transported to the venue
+ * Optionally, a lodging plan for overnight trips
+
+*** Meetings
+
+Meetings are an important element of a well-functioning team, but must not be abused. By default, online meetings should take (at most) 30 minutes. If you plan to have a meeting that is longer than this, it is expected that you notify the meeting members of this, as well as an estimated time.
+
+It is a common expectation for meetings to have a public agenda. Please outline your talking points, and estimated time per point, in this document.
+
+One-time meetings should be scheduled with a poll using a polling tool. Recurring meetings should be scheduled at the beginning of the year (post-onboarding) per group/subdivision. Recurring meetings should never occur simaltanously, and preferably are not back-to-back.
+
+The most common in-person meeting times are 2:30 (just after school ends). The most common virtual meeting times are 7:00 PM and 8:00 PM. Keep in mind that these are only recommendations - your meeting time should try to fit as many members as possible.
