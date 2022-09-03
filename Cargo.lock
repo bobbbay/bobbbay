@@ -480,9 +480,9 @@ dependencies = [
 
 [[package]]
 name = "grass"
-version = "0.11.0"
+version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "89369b06ea6eb94b38f5f2014d0d2c5a57c1b5e5bfd2e328f9cec96e6ca92448"
+checksum = "34c6284b9a420f456146e1a10e602b82ea251f10b40854bcf04598b7121a3910"
 dependencies = [
  "beef",
  "clap",
