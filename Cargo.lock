@@ -817,9 +817,9 @@ checksum = "decf7381921fea4dcb2549c5667eda59b3ec297ab7e2b5fc33eac69d2e7da87b"
 
 [[package]]
 name = "pandoc"
-version = "0.8.9"
+version = "0.8.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0d4e5728b4bdfe27803e2376f1e4d07c19dc497d8bfb1bed87878b7815fa989a"
+checksum = "2eb8469d27ed9fd7925629076a3675fea964c3f44c49662bdf549a8b7ddf0820"
 dependencies = [
  "itertools",
 ]
