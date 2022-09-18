@@ -18,8 +18,6 @@
         shell = common: prev: {
           packages = prev.packages ++ (with common.pkgs; [
             rust-analyzer
-            cargo-watch
-            pandoc
           ]);
         };
       };

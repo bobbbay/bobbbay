@@ -15,8 +15,6 @@ FIRST - /For Inspiration and Recognition of Science and Technology/ - is an orga
 
 Gracious Professionalism (GP) is a "we're all in this together" attitude promoted by FIRST. In other words, GP is to robotics as sportsmanship is to sports - it acknowledges that the opposing teams are people too, who also want to work towards a goal. Acting GP includes a variety of actions, such as refraining from swearing or helping (usually rookie) teams in need. GP is highly valued in the FIRST Robotics community.
 
-*** TODO MaxTech 4343
-
 ** Rules and regulations
 
 ** Expectations

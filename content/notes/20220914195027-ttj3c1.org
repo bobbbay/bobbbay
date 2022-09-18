@@ -1,0 +1,124 @@
+:PROPERTIES:
+:ID:       61c663a0-71e6-4a8c-9065-ddac8c3f96c8
+:END:
+#+title: TTJ3C1 - Auto shop
+
+* Safety
+
+ Most accidents in the shop are the result of broken safety rules.
+
+** MSDS
+
+Contains the following for each material:
+
+ * Storage
+ * Safety
+ * First aid
+
+MSDSs must be 3 years concurrent. Part of WHMIS.
+
+*** Symbols
+
+**** Skull symbols
+
+Immediate danger to health, bad.
+
+**** T
+
+Toxic, not immediate but long-term effects.
+
+**** Flames
+
+Flammable.
+
+**** "o" with flames
+
+Oxidizer. It produces its own oxygen, so putting it out will be very difficult.
+
+**** Condom
+
+Compressed gas.
+
+** Fire extinguishers
+
+Three levels.
+
+*** A / green triangle
+
+Level A is wood, paper, etc.
+
+*** B / red square
+
+Gasoline, oil, propellant.
+
+*** C / blue circle
+
+Electric battery. Unplug and fight like an A. Or, use halon gas.
+
+*** D
+
+Reactive, an oxidizer. Better to just let it wear itself out first.
+
+*** Alternatively, chalk powder
+
+Covers everything.
+
+** During a code red...
+
+Go under the desks at the perimeter of a room.
+
+** During a fire...
+
+Leave by the back exit door, north side.
+
+* Shop layout
+
+** Map
+
+Fire extinguishers: corner door, two at the top, one by bay doors, one by the bottom door.
+First aid kit: by the corner door
+Fire blanket: by the corner door and bottom door
+Power shutoff buttons: by every door.
+Five exits.
+Bay doors on the right.
+Hand washing station at the bottom right, bottom middle.
+In total, 31 things.
+
+** Layout
+
+ * Shop stall is a small work area where a car can be parked for repairs.
+ * When thinking of safety in the auto shop, you should look for:
+   * Unsafe work habits
+   * Unsafe quipment
+   * Other potentials for accidents
+ * Important to be surrounded by others because they can help you and you will pay more attention.
+ * Hot engine coolant, poisonous exhaust, backfire through air intake are just some potential dangers present around an automobile.
+
+** Accidents that can occur
+
+ * Explosions
+ * Electric shock
+ * Fires
+ * Asphyxiation
+ * Chemical burns
+ * Physical injuries
+
+When an accident occurs, notify your instructor immediately. Use common sense on deciding whether to get a fire extinguisher or to take other actions.
+
+Gasoline is the most dangerous and underestimated flammable in the auto shop.
+
+The most common type of multipurpose extinguisher is an A, B, C dry-chemical fire extinguisher.
+
+Respirators should be worn when working with airborne impurities.
+
+Lift with your legs, not your back.
+
+Wear:
+
+ * Eye protection
+ * Respirator
+ * Chemical-proof apron
+ * Rubber gloves - thick ones
+ * Leather shoes
+
+Watch out for assbestos dust, it causes cancer.
