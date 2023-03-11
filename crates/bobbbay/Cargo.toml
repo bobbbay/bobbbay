@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-axum = "0.6.2"
+axum = "0.6.10"
 color-eyre = "0.6.2"
 fs_extra = "1.2.0"
 glob = "0.3.1"
