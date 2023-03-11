@@ -12,7 +12,7 @@ grass = "0.12.1"
 lazy_static = "1.4.0"
 pandoc = "0.8.10"
 serde = "1.0.151"
-tera = "1.17.1"
+tera = "1.18.0"
 thiserror = "1.0.39"
 tokio = { version = "1.23.0", features = ["full"] }
 tower = "0.4.13"
