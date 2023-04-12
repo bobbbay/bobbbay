@@ -14,7 +14,7 @@ pandoc = "0.8.10"
 serde = "1.0.154"
 thiserror = "1.0.40"
 tera = "1.18.1"
-tokio = { version = "1.26.0", features = ["full"] }
+tokio = { version = "1.27.0", features = ["full"] }
 tower = "0.4.13"
 tower-http = { version = "0.4.0", features = ["fs", "trace"] }
 tracing = "0.1.37"
