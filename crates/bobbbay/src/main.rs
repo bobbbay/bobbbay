@@ -6,6 +6,7 @@ pub mod util;
 
 use axum::{
     body::Body,
+    error_handling::HandleError,
     http::StatusCode,
     response::{Html, IntoResponse},
     routing::get_service,
@@ -36,9 +37,12 @@ async fn main() -> eyre::Result<()> {
 }
 
 #[instrument]
-fn app() -> eyre::Result<Router<Body>> {
+fn app() -> eyre::Result<Router<(), Body>> {
     Ok(Router::new()
-        .fallback(get_service(ServeDir::new("./build")).handle_error(handle_error))
+        .route_service(
+            "/",
+            HandleError::new(get_service(ServeDir::new("./build")), handle_error),
+        )
         .layer(TraceLayer::new_for_http()))
 }
 
