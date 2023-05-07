@@ -11,7 +11,7 @@ glob = "0.3.1"
 grass = "0.12.3"
 lazy_static = "1.4.0"
 pandoc = "0.8.10"
-serde = "1.0.160"
+serde = "1.0.162"
 thiserror = "1.0.40"
 tokio = { version = "1.27.0", features = ["full"] }
 tera = "1.18.1"
