@@ -13,7 +13,7 @@ lazy_static = "1.4.0"
 pandoc = "0.8.10"
 serde = "1.0.182"
 thiserror = "1.0.44"
-tokio = { version = "1.29.1", features = ["full"] }
+tokio = { version = "1.31.0", features = ["full"] }
 tera = "1.19.0"
 tower = "0.4.13"
 tower-http = { version = "0.4.3", features = ["fs", "trace"] }
