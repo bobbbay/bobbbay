@@ -16,7 +16,7 @@ thiserror = "1.0.48"
 tokio = { version = "1.32.0", features = ["full"] }
 tera = "1.19.1"
 tower = "0.4.13"
-tower-http = { version = "0.4.4", features = ["fs", "trace"] }
+tower-http = { version = "0.6.0", features = ["fs", "trace"] }
 tracing = "0.1.37"
 tracing-error = "0.2.0"
 tracing-subscriber = "0.3.17"
